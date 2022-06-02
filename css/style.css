@@ -37,7 +37,7 @@ nav{
 nav .container{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
   padding: 1.5rem 0;
 }
@@ -84,3 +84,17 @@ section .container h3{
   margin-bottom: 3rem;
   font-family: 'Lobster Two', cursive;
 }
+
+nav .container ul li a {
+  font-size: 1.5rem;
+  margin-left: 40px;
+}
+
+nav .container ul li a:hover{
+  background: blueviolet;
+  color: #fff;
+}
+
+nav .container
+
+
